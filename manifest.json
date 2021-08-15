@@ -1,13 +1,14 @@
 {
     "name": "Piped Redirects",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Redirects YouTube links to Piped",
     "permissions": [
         "webRequest",
         "webRequestBlocking",
         "*://youtu.be/*",
         "*://*.youtube.com/*",
-        "*://*.youtube-nocookie.com/*"
+        "*://*.youtube-nocookie.com/*",
+        "<all_urls>"
     ],
     "icons": {
         "48": "img/logo-48.png",
